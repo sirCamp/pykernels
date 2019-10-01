@@ -38,7 +38,7 @@ class TestSimpleLogicWithSklearnSVM(unittest.TestCase):
                 for model in model_list:
                     model.fit(X, y)
                     predictions.append(model.predict(X).tolist())
-                    predictions_single.append(model.predict(X[0]).tolist())
+                    predictions_single.append(model.predict(X[0].reshape((1, -1))).tolist())
                 self.assertEqual(*predictions)
                 self.assertEqual(*predictions_single)
 

@@ -8,7 +8,7 @@ import numpy as np
 from pykernels.base import Kernel, GraphKernel
 from scipy.sparse import lil_matrix, kron,identity
 from scipy.sparse.linalg import lsqr
-import basic
+import pykernels.basic
 
 def _norm(adj_mat):
     """Normalize adjacency matrix"""

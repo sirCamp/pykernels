@@ -1,3 +1,3 @@
-from randomwalk import RandomWalk
-from allgraphlets import All34Graphlets
-from shortestpath import ShortestPath
+from pykernels.graph.randomwalk import RandomWalk
+from pykernels.graph.allgraphlets import All34Graphlets
+from pykernels.graph.shortestpath import ShortestPath

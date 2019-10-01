@@ -2,12 +2,13 @@
 Collection of basic kernel functions, which can be found in nearly any ML
 library
 """
+from pykernels.utils import euclidean_dist_matrix
 
 __author__ = 'lejlot'
 
 from pykernels.base import Kernel
 import numpy as np
-from utils import euclidean_dist_matrix
+
 
 class Linear(Kernel):
     """

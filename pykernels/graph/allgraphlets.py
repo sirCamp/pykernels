@@ -7,7 +7,7 @@ __author__ = 'kasiajanocha'
 import itertools
 import numpy as np
 from pykernels.base import Kernel, GraphKernel
-import basic
+import pykernels.basic
 
 def dec2bin(k, bitlength=0):
     """Decimal to binary"""

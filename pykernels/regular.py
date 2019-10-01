@@ -7,7 +7,7 @@ __author__ = 'lejlot'
 
 from pykernels.base import Kernel
 import numpy as np
-from utils import euclidean_dist_matrix
+from pykernels.utils import euclidean_dist_matrix
 import warnings
 
 class Cossim(Kernel):
